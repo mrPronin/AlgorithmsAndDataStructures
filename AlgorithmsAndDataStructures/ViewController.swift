@@ -12,7 +12,8 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        print("is sorted: \(Array(0...3).isSorted)")
+        print("is sorted: \([0, 2, 2, 1].isSorted)")
     }
 
 
